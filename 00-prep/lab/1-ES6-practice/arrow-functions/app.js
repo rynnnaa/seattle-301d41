@@ -35,7 +35,7 @@ console.log('Without parens:', withoutParens('Code 301'));
 // If the code block contains a single line of code, we can write everything on one line
 // We no longer need the curly braces and the return is implicit
 // Without an arrow function, we need to explicitly type "return"
-const oneLiner = course => `I cam currently enrolled in ${course}`;
+const oneLiner = course => `I am currently enrolled in ${course}`;
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 console.log('As a one-liner:', oneLiner('Code 301'));
@@ -59,7 +59,6 @@ const addOneLiner = (num1, num2) => `${num1} + ${num2} = ${num1 + num2}`;
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 console.log('Add as a one-liner:', addOneLiner(4, 5));
-
 
 // STEP 7
 // What if we have multiple lines of code?
@@ -106,14 +105,17 @@ console.log('Hello from the new object function', newObject(['hi', 'hello', 'are
 // Refactor each function into an arrow function.
 // Write your solutions on a single line wherever possible. 
 
-
-
 let sum = function(a, b, c, d) {
   return a + b + c + d;
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 console.log(sum(1, 2, 3, 4));
+
+//Refactored:
+let sumOneLiner = (a, b, c, d) => `${a} + ${b} + ${c} + ${d} = ${a + b + c + d}`;
+console.log('As a one liner:', sumOneLiner(1,2,3,4));
+
 
 
 let objectLit = function() {
@@ -127,6 +129,8 @@ let objectLit = function() {
 // TODO: Uncomment the following line of code to see the output in the browser console
 console.log(objectLit());
 
+//Refactored:
+
 
 let sumAndProduct = function(a, b) {
   let sum = a + b;
@@ -135,7 +139,21 @@ let sumAndProduct = function(a, b) {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(sumAndProduct(3, 9));
+console.log(sumAndProduct(3, 9));
+
+//Refactored:
+
+let OneLinerSumAndProduct = (a,b) => `${a} + ${b} = ${a + b}`; {
+sum = a + b;
+product = a * b;
+return [sum, product];
+};
+
+console.log('One liner sum and product:', )
+
+
+
+
 
 
 let message = function(name) {
