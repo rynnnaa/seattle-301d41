@@ -1,0 +1,112 @@
+section {
+  width: 100%;
+}
+
+#first {
+  display: block;
+  height: 75px;
+  width: 480px; 
+  border: 1px solid #000;
+  background: #888;
+  box-sizing: border-box;
+  float: left;
+  clear: both;
+}
+
+.second {
+  display: block;
+  height: 150px;
+  width: 480px;
+  border: 1px solid #000;
+  background: #888;
+  box-sizing: border-box;
+  float: left;
+  clear: both;
+  
+}
+
+.third {
+  display: block;
+  height: 125px;
+  width: 480px;
+  border: 1px solid #000;
+  background: #888;
+  box-sizing: border-box;
+  float: left;
+  clear: both;
+}
+
+.fourth {
+  display: block;
+  height: 125px;
+  width: 480px;
+  border: 1px solid #000;
+  background: #888;
+  box-sizing: border-box;
+  float: left;
+  clear: both;
+}
+
+.fifth {
+  display: block;
+  height: 250px;
+  width: 240px;
+  border: 1px solid #000;
+  background: #888;
+  box-sizing: border-box;
+  float: left;
+  clear: both;
+}
+
+.sixth {
+  display: block;
+  height: 250px;
+  width: 240px;
+  border: 1px solid #000;
+  background: #888;
+  box-sizing: border-box;
+  float: left;
+}
+
+.seventh {
+  display: block;
+  height: 250px;
+  width: 240px;
+  border: 1px solid #000;
+  background: #888;
+  box-sizing: border-box;
+  float: left;
+  clear: both;
+}
+
+.eighth {
+  display: block;
+  height: 250px;
+  width: 240px;
+  border: 1px solid #000;
+  background: #888;
+  box-sizing: border-box;
+  float: left;
+}
+
+.ninth {
+  display: block;
+  height: 80px;
+  width: 480px;
+  border: 1px solid #000;
+  background: #888;
+  box-sizing: border-box;
+  float: left;
+  clear: both;
+}
+
+@media (min-width: 768px) {
+  section {
+    width: 1500px;
+  }
+
+  div {
+    width: 300px;
+    float: left;
+  }
+}
